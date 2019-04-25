@@ -1,5 +1,4 @@
-﻿
-namespace temperature
+﻿namespace temperature
 {
     public class ConvertisseurFarenheit
     {
