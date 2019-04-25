@@ -1,7 +1,7 @@
 ﻿
 namespace temperature
 {
-    class ConvertisseurFarenheit
+    public class ConvertisseurFarenheit
     {
         private double temperature;
 
@@ -13,9 +13,9 @@ namespace temperature
             set => temperature = value;
         }
 
-        public double Farenheit()
+        public double Farenheit
         {
-            return 1.8 * Celsius + 32;
+            get => 1.8 * Celsius + 32;
         }
     }
 }
