@@ -10,6 +10,7 @@ namespace temperature
             double t = Convert.ToDouble(Console.ReadLine());
             var convertisseur = new ConvertisseurFarenheit(t);
             Console.WriteLine("Conversion en farenheit : {0}",  convertisseur.Farenheit);
+            Console.ReadKey();
         }
     }
 }
